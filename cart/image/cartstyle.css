@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo h3 {
+    display: inline;
+}
+
+.h3 {
+    color: red;
+    padding-left: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(248,232,217);
+    border-bottom: 2px solid rgb(252,196,124);
+    box-shadow: inset 0 2px 20px rgb(253,124,124);
+}
+
+    .header ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+.nav ul li:hover {
+    color: rgb(253,57,8);
+}
+
+.nav ul li {
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.account a {
+    padding-right: 15px;
+}
+
+.headerbar {
+    display: none;
+}
+
+.bar {
+    display: none;
+}
+@media only screen and (max-width:900px) {
+    .header .nav, .header .account {
+        display: none;
+    }
+
+    .search {
+        width: 60vw;
+    }
+
+        .search i {
+            cursor: pointer;
+        }
+
+    .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    .headerbar {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        bottom: 0;
+        right: 100%;
+        background-color: rgb(252,231,216);
+    }
+
+        .headerbar .account, .headerbar .nav {
+            display: block;
+            font-size: 18px;
+        }
+
+    .bar .fa-xmark {
+        display: block;
+        top: 20px;
+        right: 5vw;
+        position: absolute;
+        font-size: 25px;
+    }
+
+    .headerbar .nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .headerbar .nav li {
+        width: 90vw;
+        margin: 10px 0;
+        padding: 15px 30px;
+        box-shadow: 0 20px 15px rgb(252,193,169);
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .header .account {
+        line-height: 40px;
+        margin-top: 60px;
+        background-color: rgb(252,210,182);
+        padding: 15px;
+    }
+
+    .headerbar .account ul {
+        justify-content: space-between;
+    }
+}
+.container{
+    width: 70%;
+    justify-content: space-around;
+    margin: 0px 200px;
+    margin-top: 50px;
+}
+.product-head{
+    width: 99%;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 2px solid brown;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 95%;
+}
+.products img {
+    height: 86px;
+    width: 77px;
+}
+.product span {
+    font: initial;
+    margin-left: 25px;
+}
+.quentity .span {
+    margin-right: 20px;
+}
+.product ion-icon {
+    color: red;
+    cursor: pointer;
+}
+
+.title{
+    margin-left: 82px;
+    width: 23%;
+}
+h5 .price{
+    margin-left: 55px;
+    margin-right: 35px;
+}
+h5.total {
+    margin-right: 39px;
+}
+.price{
+    width: 15%;
+    align-items: center;
+    display: flex;   
+    font-family: ui-rounded;
+    font-size: 20px;
+}
+.quentity{
+    width: 30%;
+    
+    display: flex;
+    align-items: center;
+
+}
+.total{
+    width: 10px;
+    
+    display: flex;
+    align-items: center;
+    font-family: ui-rounded;
+    font-size: 20px;
+}
+.products{
+    width: 95%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid brown;
+    padding: 10px 0;
+    flex-direction: column;
+}
+.totalcontainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+.totaltitle{
+    width: 17%;
+    font-family: ui-rounded;
+    font-size: 20px;
+}
+.baskettotal{
+    width: 4%;
+    font-family: ui-rounded;
+    font-size: 20px;
+}

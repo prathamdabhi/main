@@ -1,0 +1,284 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo h3 {
+    display: inline;
+}
+
+.h3 {
+    color: red;
+    padding-left: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(248,232,217);
+    border-bottom: 2px solid rgb(252,196,124);
+    box-shadow: inset 0 2px 20px rgb(253,124,124);
+}
+
+    .header ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+.nav ul li:hover {
+    color: rgb(253,57,8);
+}
+
+.nav ul li {
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.account a {
+    padding-right: 15px;
+}
+
+.headerbar {
+    display: none;
+}
+
+.bar {
+    display: none;
+}
+i.fa-solid.fa-cart-shopping {
+    margin-right: 1rem;
+    font-size: 19px;
+}
+sup {
+    position: relative;
+    background-color: #fff;
+    padding: 1px 1px;
+    border-radius: 50px;
+}
+@media only screen and (max-width:900px) {
+    .header .nav, .header .account {
+        display: none;
+    }
+
+    .search {
+        width: 60vw;
+    }
+
+        .search i {
+            cursor: pointer;
+        }
+
+    .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    .headerbar {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        bottom: 0;
+        right: 100%;
+        background-color: rgb(252,231,216);
+    }
+
+        .headerbar .account, .headerbar .nav {
+            display: block;
+            font-size: 18px;
+        }
+
+    .bar .fa-xmark {
+        display: block;
+        top: 20px;
+        right: 5vw;
+        position: absolute;
+        font-size: 25px;
+    }
+
+    .headerbar .nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .headerbar .nav li {
+        width: 90vw;
+        margin: 10px 0;
+        padding: 15px 30px;
+        box-shadow: 0 20px 15px rgb(252,193,169);
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .header .account {
+        line-height: 40px;
+        margin-top: 60px;
+        background-color: rgb(252,210,182);
+        padding: 15px;
+    }
+
+    .headerbar .account ul {
+        justify-content: space-between;
+    }
+}
+body {
+    background-color: rgb(248,232,217);
+}
+.container {
+    background-color: white;
+    margin: 70px 0px;
+    padding: 20px 8px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(248,232,217);
+}
+
+.row {
+    width: 289px;
+    padding: 30px;
+    text-align: center;
+    margin: 0 -20px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 8px 2px rgb(250,120,69);
+    cursor:pointer;
+}
+
+}
+
+.row div {
+    width: 160px;
+}
+
+.row img {
+    width: 208px;
+    margin-bottom: 12px;
+}
+
+.row p {
+    margin-top: 12px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.row .book-btn {
+    width: 108px;
+    line-height: 30px;
+}
+
+.book-btn {
+    cursor: pointer;
+    margin-top: 11px;
+    background-color: rgb(253,176,34);
+    color: antiquewhite;
+    line-height: 29px;
+    border-radius: 5px;
+    border: 2px solid rgb(253,77,8);
+    box-shadow: 0 10px 15px rgb(250,120,69);
+}
+
+    .book-btn:hover {
+        background-color: antiquewhite;
+        color: rgb(253,176,34);
+    }
+.row .p {
+    color: red;
+    font-weight: bold;
+}
+.row2 {
+    width: 289px;
+    padding: 30px;
+    text-align: center;
+    margin: 0 -20px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 8px 2px rgb(250,120,69);
+    cursor:pointer;
+}
+
+}
+
+.row2 div {
+    width: 160px;
+}
+
+.row2 img {
+    width: 208px;
+    margin-bottom: 12px;
+}
+
+.row2 p {
+    margin-top: 12px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.row2 .book-btn {
+    width: 108px;
+    line-height: 30px;
+}
+
+.book-btn {
+    cursor: pointer;
+    margin-top: 11px;
+    background-color: rgb(253,176,34);
+    color: antiquewhite;
+    line-height: 29px;
+    border-radius: 5px;
+    border: 2px solid rgb(253,77,8);
+    box-shadow: 0 10px 15px rgb(250,120,69);
+}
+
+    .book-btn:hover {
+        background-color: antiquewhite;
+        color: rgb(253,176,34);
+    }
+
+.row2 .p {
+    color: red;
+    font-weight: bold;
+}
+.row {
+    background-color: white;
+    box-shadow: 0px 2px 8px 2px rgb(250,120,69);
+}
+.footer {
+    background-color: rgb(227 161 98);
+    width: 100%;
+    text-align: center;
+}
+
+    .footer p {
+        color: black;
+    }
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0 5px;
+    color: #df0707;
+}
